@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="toDo-list">
+      <header>
+        <h1>My ToDo List</h1>
+        <div class="info">
+          <div class="item">
+            <div class="inner"><p class="day"></p></div>
+            <div class="inner">
+              <div class="top"><p class="week"></p></div>
+              <div class="bottom">
+                <p class="month-year"></p>
+              </div>
+            </div>
+          </div>
+          <div class="item"><i class="far fa-calendar-check"></i></div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="add-list">
+          <input type="text" class="text" placeholder="請填寫代辦內容" required />
+          <button class="add-btn">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+        <ul class="list">
+          <!-- <li>
+            <input type="checkbox" id="ck0" class="checkbox" data-index="0" checked/>
+            <label for="ck0" class="item-label completed">1</label>
+            <i class="fas fa-trash-alt" data-index="0"></i>
+          </li>
+          <li>
+            <input type="checkbox" id="ck1" class="checkbox" data-index="1"/>
+            <label for="ck1" class="item-label ">2</label>
+            <i class="fas fa-trash-alt" data-index="1"></i>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
