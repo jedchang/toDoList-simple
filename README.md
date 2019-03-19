@@ -3,7 +3,7 @@
 ![image](https://img.shields.io/badge/JavaScript-exercise-brightgreen.svg)
 ![image](https://img.shields.io/badge/SASS-exercise-ff69b4.svg)
 
-![images](https://github.com/jedchang/toDoList/blob/master/preview.jpg)
+![images](https://github.com/jedchang/toDoList-simple/blob/master/preview.jpg)
 
 ### localStorage.getItem
 
