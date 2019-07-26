@@ -1,9 +1,8 @@
 # To-Do List 備忘錄
 
-![image](https://img.shields.io/badge/JavaScript-exercise-brightgreen.svg)
-![image](https://img.shields.io/badge/SASS-exercise-ff69b4.svg)
+![image](https://img.shields.io/badge/JavaScript-exercise-F0DB4F.svg) ![image](https://img.shields.io/badge/SCSS-exercise-CD6799.svg)
 
-![images](https://github.com/jedchang/toDoList-simple/blob/master/preview.jpg)
+![image](https://github.com/jedchang/toDoList-simple/blob/master/preview.jpg)
 
 ### localStorage.getItem
 
